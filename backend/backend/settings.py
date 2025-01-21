@@ -14,7 +14,6 @@ DEBUG = os.environ.get('DEBUG_DJANGO') == 'True'
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOST_DJANGO', 'local').split(',')
 
 # Application definition
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
